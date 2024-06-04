@@ -213,22 +213,9 @@ a {
     animation-range: cover 0% cover 30%;
 
     &:hover {
-        background-color: #00f;
+        background-color: #008;
         border: 3px solid #fff;
     }
-}
-.empresas{
-    margin-bottom: 20px;
-    justify-content: center;
-}
-.empresas h2 {
-    margin: 10px;
-}
-.empresas img{
-    display: flex;
-    max-width: 15%;
-    height: auto;
-    opacity: 60%;
 }
 
 /* SEÇÃO QUEM SOMOS */
@@ -266,7 +253,7 @@ a {
     justify-content: center;
     text-align: center;
     gap: 60px;
-    background-color: #fff;
+    background-color: #ccc;
     color: #000;
     transition: background .2s ease-in-out, color .2s ease-in-out;
   
