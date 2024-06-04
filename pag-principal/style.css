@@ -118,9 +118,11 @@ a {
     display: flex;
     gap: 50px;
     width: 80%;
+    align-items: center;
 }
 .box-texto-imagem img {
-    width: 450px;
+    width: 40%;
+    height: 20%;
 }
 .box-texto-imagem div {
     display: flex;
@@ -217,6 +219,11 @@ a {
     margin-bottom: 20px;
     justify-content: center;
 }
+
+.empresas h2 {
+    margin: 10px;
+}
+
 .empresas img{
     display: flex;
     max-width: 15%;
