@@ -213,6 +213,17 @@ a {
     border: 3px solid #fff;
 }
 
+.empresas{
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.empresas img{
+    display: flex;
+    max-width: 15%;
+    height: auto;
+    opacity: 60%;
+}
+
 /* SEÇÃO QUEM SOMOS */
 
 #quem-somos {
