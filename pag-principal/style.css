@@ -116,9 +116,11 @@ a {
     display: flex;
     gap: 50px;
     width: 80%;
+    align-items: center;
 }
 .box-texto-imagem img {
-    width: 450px;
+    width: 40%;
+    height: 20%;
 }
 .box-texto-imagem div {
     display: flex;
@@ -209,6 +211,22 @@ a {
 #botao:hover{
     background-color: #00f;
     border: 3px solid #fff;
+}
+
+.empresas{
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.empresas h2 {
+    margin: 10px;
+}
+
+.empresas img{
+    display: flex;
+    max-width: 15%;
+    height: auto;
+    opacity: 60%;
 }
 
 /* SEÇÃO QUEM SOMOS */
