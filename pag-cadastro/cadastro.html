@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="./cadastro.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="box-cadastro">
+            <h1 class="titulo">CRIAR CONTA</h1>
+            <form action="" method="post">
+                
+                <input type="text" name="cpf" id="idCpf" placeholder="CPF" required minlength="14" maxlength="14">
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="password" name="senha" placeholder="Crie uma senha" required minlength="7">
+                <input type="password" name="confirmar-senha" placeholder="Confirme sua senha" required minlength="7">
+                <button type="submit">Cadastrar</button>
+
+                <div class="divisor"></div>
+
+                <a href="../pag-login/login.html" title="Já tenho uma conta">Já tenho uma conta</a>
+
+            </form>
+        </div>
+    </div>
+    <script src="./cadastro.js"></script>
 </body>
 </html>

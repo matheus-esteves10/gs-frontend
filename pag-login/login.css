@@ -79,6 +79,7 @@ body {
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
 
     &:hover {
         background-color: #011234;
@@ -94,7 +95,7 @@ body {
     opacity: .2;
 }
 .box-login a {
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #fff;
     text-decoration: none;
 
