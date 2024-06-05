@@ -6,26 +6,35 @@
     <title>Cadastro VP</title>
     <link rel="icon" href="../img/logo-vp-innovation-icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="./cadastro.css">
-    <script src="./cadastro.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="box-cadastro">
             <h1 class="titulo">CRIAR CONTA</h1>
-            <form action="" method="post">
-                
-                <input type="text" name="cpf" id="idCpf" placeholder="CPF" required minlength="14" maxlength="14" autocomplete="off">
-                <input type="email" name="email" placeholder="E-mail" required autocomplete="off">
-                <input type="password" name="senha" placeholder="Crie uma senha" required minlength="7">
-                <input type="password" name="confirmar-senha" placeholder="Confirme sua senha" required minlength="7">
-                <button type="submit">Cadastrar</button>
-
+            <form id="form-cadastro" action="../pag-sucesso-cadastro/sucesso-cadastro.html" method="get">
+                <div class="div-input">
+                    <input type="text" name="txtCpf" id="idCpf" placeholder="CPF" maxlength="14" autocomplete="off">
+                    <p>Mensagem de erro.</p>
+                </div>
+                <div class="div-input">
+                    <input type="email" name="txtEmail" id="idEmail" placeholder="E-mail" autocomplete="off">
+                    <p>Mensagem de erro.</p>
+                </div>
+                <div class="div-input">
+                    <input type="password" name="txtSenha" id="idSenha" placeholder="Crie uma senha">
+                    <p>Mensagem de erro.</p>
+                </div>
+                <div class="div-input">
+                    <input type="password" name="txtConfirmaSenha" id="idConfirmaSenha" placeholder="Confirme sua senha">
+                    <p>Mensagem de erro.</p>
+                </div>
+                <button id="form-btn" type="submit">Cadastrar</button>
                 <div class="divisor"></div>
-
                 <a href="../pag-login/login.html" title="Já tenho uma conta">Já tenho uma conta</a>
 
             </form>
         </div>
     </div>
+    <script src="./cadastro.js"></script>
 </body>
 </html>

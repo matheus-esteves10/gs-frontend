@@ -337,6 +337,7 @@ a {
     margin-bottom: 4px;
 }
 #form-contato input {
+    background-color: #bbb;
     padding: 15px;
     outline: none;
     border: 0;
@@ -348,6 +349,7 @@ a {
     }
 }
 #form-contato textarea {
+    background-color: #bbb;
     padding: 10px;
     outline: none;
     border: 0;

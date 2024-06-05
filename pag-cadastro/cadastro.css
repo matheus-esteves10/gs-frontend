@@ -49,7 +49,11 @@ body {
     width: 100%;
     margin-top: 32px;
 }
-.box-cadastro input {
+.div-input {
+    width: 100%;
+    text-align: left;
+}
+.div-input input {
     outline: none;
     background-color: transparent;
     color: #fff;
@@ -58,7 +62,6 @@ body {
     border: 2px solid rgba(255, 255, 255, .2);
     padding-left: 16px;
     font-size: 1.4rem;
-    margin-bottom: 16px;
     border-radius: 10px;
 
     &:focus {
@@ -80,6 +83,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
+    margin-top: 15px;
 
     &:hover {
         background-color: #011234;
@@ -102,4 +106,16 @@ body {
     &:hover {
         text-decoration: underline;
     }
+}
+.div-input p {
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    visibility: hidden;
+}
+.div-input.erro input {
+    border-color: #900;
+}
+.div-input.erro p {
+    color: #900;
+    visibility: visible;
 }
