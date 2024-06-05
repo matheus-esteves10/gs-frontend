@@ -8,6 +8,60 @@
     <title>Chamados VP</title>
 </head>
 <body>
-    <h1>LOGADO</h1>
+    <section id="box-chamado">
+        <form id="form-chamado" action="" method="get">
+            <div class="div-label-input">
+                <label for="idTipo">Tipo de ocorrência</label>
+                <select name="tipo" id="idTipo">
+                    <option value="">Selecione um tipo</option>
+                    <option value="Animal em Perigo">Animal em Perigo</option>
+                    <option value="Pesca Ilegal">Pesca Ilegal</option>
+                    <option value="Descarte Inadequado">Descarte Inadequado de lixo/material tóxico</option>
+                </select>
+            </div>
+            <div class="div-label-input">
+                <label for="idDescricao">Descrição</label>
+                <textarea name="descricao" id="idDescricao" cols="30" rows="10" placeholder="Digite a descrição da ocorrência" required></textarea>
+            </div>
+            <div class="div-label-input">
+                <label for="idEstado">Estado</label>
+                <select name="estado" id="idEstado">
+                    <option value="">Selecione um estado</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="PR">Paraná</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="SP">São Paulo</option>
+                </select>
+            </div>
+            <div class="div-label-input">
+                <label for="idCidade">Cidade</label>
+                <input type="text" id="idCidade" placeholder="Digite o nome da cidade" required>
+            </div>
+            <div class="div-label-input">
+                <label for="idBairro">Bairro</label>
+                <input type="text" id="idBairro" placeholder="Digite o nome do bairro mais próximo" required>
+            </div>
+            <div class="div-label-input">
+                <label for="idRua">Rua e Número (se possível)</label>
+                <input type="text" id="idRua" placeholder="Digite o nome da rua e número mais próximo">
+            </div>
+            <div class="div-label-input">
+                <label for="idPtRef">Ponto de Referência</label>
+                <input type="text" id="idPtRef" placeholder="Digite um ponto de referência" required>
+            </div>
+        </form>
+    </section>
 </body>
 </html>
