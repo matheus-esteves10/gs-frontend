@@ -14,7 +14,7 @@ const listaUsuarios = [
       cpf: "22233344455",
       email: "usuario3@email.com",
       senha: "senha789"
-    },
+    }
 ];
 
 // PEGANDO ELEMENTOS
