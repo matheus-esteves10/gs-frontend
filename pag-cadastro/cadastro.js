@@ -1,32 +1,37 @@
 // PEGANDO ELEMENTOS 
 
-const form = document.getElementById("form-cadastro")
-const cpf = document.getElementById("idCpf")
-const email = document.getElementById("idEmail")
-const senha = document.getElementById("idSenha")
-const confirmaSenha = document.getElementById("idConfirmaSenha")
-const botao = document.getElementById("form-btn")
+const form = document.getElementById("form-cadastro");
+const cpf = document.getElementById("idCpf");
+const email = document.getElementById("idEmail");
+const senha = document.getElementById("idSenha");
+const confirmaSenha = document.getElementById("idConfirmaSenha");
+const botao = document.getElementById("form-btn");
 
 // TRATANDO ERROS DE INPUT
 
 // se a validação falhar, evita o envio do formulário
 form.addEventListener('submit', function(event) {
-  if (formularioIsValid() === false)
+  if (formularioIsValid() === false){
     event.preventDefault();
-});
+  }
+})
 
 // executa verificação do input quando fora de foco
-cpf.addEventListener("blur", () => {
-    verificarInputCpf();
+cpf.addEventListener("focus", () => {
+    const divInput = cpf.parentElement;
+    divInput.className = "div-input";
 })
-email.addEventListener("blur", () => {
-    verificarInputEmail();
+email.addEventListener("focus", () => {
+    const divInput = email.parentElement;
+    divInput.className = "div-input";
 })
-senha.addEventListener("blur", () => {
-    verificarInputSenha();
+senha.addEventListener("focus", () => {
+    const divInput = senha.parentElement;
+    divInput.className = "div-input";
 })
-confirmaSenha.addEventListener("blur", () => {
-    verificarInputConfirmaSenha();
+confirmaSenha.addEventListener("focus", () => {
+    const divInput = confirmaSenha.parentElement;
+    divInput.className = "div-input";
 })
 
 // verificadores de cada input

@@ -47,7 +47,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 32px;
+    margin-top: 10px;
 }
 .box-login input {
     outline: none;
@@ -80,6 +80,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
+    margin-top: 15px;
 
     &:hover {
         background-color: #011234;
@@ -102,4 +103,13 @@ body {
     &:hover {
         text-decoration: underline;
     }
+}
+.box-login p {
+    color: #900;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    visibility: hidden;
+}
+.box-login.erro p {
+    visibility: visible;
 }
