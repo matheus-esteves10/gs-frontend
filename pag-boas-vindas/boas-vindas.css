@@ -11,8 +11,20 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #07072a;
+    background-image: url("../img/background-boas-vindas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 h1 {
     font-size: 5vw;
