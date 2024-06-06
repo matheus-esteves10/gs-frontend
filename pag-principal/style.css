@@ -435,4 +435,13 @@ footer {
     font-weight: 200;
 }
 
+@media screen and (max-width: 444px) {
+    #cabecalho {
+        height: auto;
+        margin-top: -1vw;
+        width: 80%;
+        align-items: flex-end;
+    }
+}
+
 }
