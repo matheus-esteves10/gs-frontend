@@ -439,9 +439,27 @@ footer {
     #cabecalho {
         height: auto;
         margin-top: -1vw;
-        width: 80%;
-        align-items: flex-end;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        display: block;
+    
     }
+
+    #cabecalho img{
+        margin-bottom: 10px;
+    }
+
+    #cabecalho nav ul {
+        justify-content: center;
+     
+    }
+
+    .link {
+        width: 55%;
+    }
+
+
 }
 
 }
