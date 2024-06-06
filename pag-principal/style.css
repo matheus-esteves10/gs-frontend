@@ -206,11 +206,11 @@ html, body {
     align-items: center;
     justify-content: center;
 
-    width: 20vw;
+    width: 40vw;
     height: 10vh;
     border-radius: 10px;
-    font-size: 3.2rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 500;
     letter-spacing: 3px;
     transition: all .2s ease-in;
     
@@ -416,3 +416,10 @@ footer {
     gap: 15px;
     align-items: start;
 }
+
+@media screen and (max-width: 600px) {
+    #botao {
+        font-size: 1.8rem;
+    }
+    }
+
