@@ -417,39 +417,6 @@ footer {
     align-items: start;
 }
 
-/* MEDIA QUERY */
-
-@media screen and (max-width: 1120px) {
-    footer {
-        flex-direction: column; 
-        padding-top: 20px; 
-    }
-    
-    #contatos-footer {
-        flex-wrap: wrap;
-        justify-content: center; 
-        row-gap: 0;
-    }
-    
-    #lista-emails {
-        align-items: start; 
-    }
-
-    #twitter {
-        margin-top: 25px;
-        
-    }
-}
-
-@media screen and (max-width: 682px) {
-    
-    #instagram {
-        margin-bottom: 25px;
-    }
-}
-
-
-
 @media screen and (max-width: 600px) {
     #botao {
         font-size: 1.7rem;
@@ -463,9 +430,13 @@ footer {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 300;
-}
-.box-texto-imagem div p strong {
-    font-weight: 200;
+    }
+    .box-texto-imagem div p strong {
+        font-weight: 200;
+    }
+    #botao {
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (max-width: 444px) {
@@ -478,25 +449,18 @@ footer {
         display: block;
     
     }
-
     #cabecalho img{
         margin-bottom: 10px;
     }
-
     #cabecalho nav ul {
         justify-content: center;
      
     }
-
     .link {
         width: 55%;
     }
 
 
 }
-@media screen and (max-width: 408px) {
-    footer {
-        font-size: 1.6rem;
-    }
-}
+
 }
