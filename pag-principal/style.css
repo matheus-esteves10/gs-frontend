@@ -388,7 +388,7 @@ html, body {
 footer {
     background-color: #000;
     color: #fff;
-    height: 180px;
+    min-height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -416,6 +416,39 @@ footer {
     gap: 15px;
     align-items: start;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1120px) {
+    footer {
+        flex-direction: column; 
+        padding-top: 20px; 
+    }
+    
+    #contatos-footer {
+        flex-wrap: wrap;
+        justify-content: center; 
+        row-gap: 0;
+    }
+    
+    #lista-emails {
+        align-items: start; 
+    }
+
+    #twitter {
+        margin-top: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 682px) {
+    
+    #instagram {
+        margin-bottom: 25px;
+    }
+}
+
+
 
 @media screen and (max-width: 600px) {
     #botao {
@@ -461,5 +494,9 @@ footer {
 
 
 }
-
+@media screen and (max-width: 408px) {
+    footer {
+        font-size: 1.6rem;
+    }
+}
 }
