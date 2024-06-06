@@ -461,6 +461,10 @@ footer {
         margin-top: 25px;
         
     }
+
+    #instagram {
+        margin-bottom: 25px;
+    }
 }
 
 @media screen and (max-width: 740px) { 
