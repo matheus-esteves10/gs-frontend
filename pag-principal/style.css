@@ -13,9 +13,11 @@ a {
     text-decoration: none;
 }
 
-body {
-    width: 100%;
+html, body {
+    overflow-x: hidden;
 }
+
+
 
 /* CABEÇALHO */
 
