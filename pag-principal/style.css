@@ -418,6 +418,13 @@ footer {
 }
 
 
+@media screen and (width < 1150px) {
+    #ajude-e-ganhe div img {
+        width: 0;
+        animation: none;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .box-texto-imagem div {
     display: flex;
@@ -425,9 +432,6 @@ footer {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 300;
-    }
-    .box-texto-imagem div p strong {
-        font-weight: 200;
     }
     #botao {
         font-size: 1.7rem;
