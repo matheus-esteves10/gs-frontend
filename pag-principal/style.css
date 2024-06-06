@@ -419,7 +419,20 @@ footer {
 
 @media screen and (max-width: 600px) {
     #botao {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     }
 
+@media screen and (max-width: 600px) {
+    .box-texto-imagem div {
+    display: flex;
+    align-items: left;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.box-texto-imagem div p strong {
+    font-weight: 200;
+}
+
+}
