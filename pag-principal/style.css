@@ -476,6 +476,15 @@ footer {
     }
 }
 
+@media screen and (max-width: 740px) { 
+    .container {
+        width: 100%;
+        font-size: 1.8rem;
+        align-items: center;
+    }
+}
+
+
 @media screen and (max-width: 444px) {
     #cabecalho {
         height: auto;
@@ -505,3 +514,8 @@ footer {
     }
 }
 
+@media screen and (max-width: 740px) {
+    #link-repo {
+        width: 70%;
+    }
+}
