@@ -1,3 +1,5 @@
+# DESCRIÇÃO
+
   Atualmente nossos oceanos enfrentam diversos desafios como: destruição dos 
 habitats marinhos, descarte de lixo inadequado, poluição, destruição da 
 biodiversidade.  A ideia do projeto consiste em criar um software para que as pessoas 
