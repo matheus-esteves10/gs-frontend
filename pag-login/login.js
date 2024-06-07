@@ -40,8 +40,7 @@ function loginSenhaValidos(){
     
         if((loginValue == listaUsuarios[x].cpf || loginValue == listaUsuarios[x].email) && (senhaValue == listaUsuarios[x].senha)){
             return true;
-        }else{
-            return false;
         }
     }
+    return false;
 }
